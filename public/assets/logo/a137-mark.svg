@@ -1,0 +1,13 @@
+﻿<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>ABITS-137 A137 Mark</title>
+  <rect x="48" y="48" width="416" height="416" rx="112" fill="#07090D"/>
+  <rect x="78" y="78" width="356" height="356" rx="88" stroke="white" stroke-opacity="0.08" stroke-width="2"/>
+  <path d="M152 356L239 156H274L361 356H304L289 318H222L207 356H152Z" fill="white"/>
+  <path d="M237 276H274L256 229L237 276Z" fill="#07090D"/>
+  <rect x="149" y="378" width="214" height="18" rx="9" fill="#5CECFF"/>
+  <rect x="384" y="94" width="40" height="40" rx="20" fill="#5CECFF"/>
+  <rect x="384" y="94" width="40" height="40" rx="20" stroke="white" stroke-opacity="0.32" stroke-width="2"/>
+  <path d="M134 135H180V181H134V135Z" fill="white" fill-opacity="0.18"/>
+  <path d="M198 135H244V181H198V135Z" fill="white" fill-opacity="0.26"/>
+  <path d="M262 135H308V181H262V135Z" fill="#5CECFF" fill-opacity="0.88"/>
+</svg>

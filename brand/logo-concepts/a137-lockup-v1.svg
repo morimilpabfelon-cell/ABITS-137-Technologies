@@ -1,0 +1,23 @@
+﻿<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>ABITS-137 Technologies Lockup</title>
+  <rect x="40" y="40" width="280" height="280" rx="72" fill="#07090D"/>
+  <rect x="62" y="62" width="236" height="236" rx="56" stroke="white" stroke-opacity="0.08" stroke-width="2"/>
+  <path d="M110 246L169 110H193L252 246H213L203 220H158L148 246H110Z" fill="white"/>
+  <path d="M168 192H193L181 160L168 192Z" fill="#07090D"/>
+  <rect x="108" y="261" width="146" height="12" rx="6" fill="#5CECFF"/>
+  <rect x="258" y="72" width="28" height="28" rx="14" fill="#5CECFF"/>
+  <rect x="98" y="96" width="32" height="32" fill="white" fill-opacity="0.18"/>
+  <rect x="142" y="96" width="32" height="32" fill="white" fill-opacity="0.26"/>
+  <rect x="186" y="96" width="32" height="32" fill="#5CECFF" fill-opacity="0.88"/>
+  <text x="370" y="178" font-family="Inter, Arial, Helvetica, sans-serif" font-size="104" font-weight="900" letter-spacing="-8" fill="#07090D">ABITS-137</text>
+  <text x="376" y="242" font-family="Inter, Arial, Helvetica, sans-serif" font-size="34" font-weight="800" letter-spacing="20" fill="#07090D" fill-opacity="0.56">TECHNOLOGIES</text>
+  <rect x="376" y="265" width="510" height="3" rx="1.5" fill="url(#line)"/>
+  <defs>
+    <linearGradient id="line" x1="376" y1="266.5" x2="886" y2="266.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07090D" stop-opacity="0"/>
+      <stop offset="0.48" stop-color="#07090D" stop-opacity="0.28"/>
+      <stop offset="0.58" stop-color="#5CECFF"/>
+      <stop offset="1" stop-color="#07090D" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>

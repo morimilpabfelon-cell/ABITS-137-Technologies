@@ -576,3 +576,12 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+.brand-mark {
+  width: 34px;
+  height: 34px;
+  display: block;
+  flex: 0 0 auto;
+  border-radius: 11px;
+  box-shadow: 0 16px 34px rgba(7, 9, 13, 0.22);
+}
