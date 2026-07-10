@@ -13,3 +13,9 @@ Thumbs.db
 dist/
 build/
 .cache/
+
+# Node / Vite
+node_modules/
+dist/
+.env
+.env.local
