@@ -1,8 +1,8 @@
 <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <title>ABITS-137 compact mark</title>
+  <title>ABITS-137 monochrome dark mark</title>
   <rect x="40" y="40" width="432" height="432" rx="120" fill="#07090D"/>
   <path d="M137 352L231 145H281L375 352H316L296 306H216L196 352H137Z" fill="white"/>
   <path d="M237 258H276L256 211L237 258Z" fill="#07090D"/>
-  <rect x="146" y="378" width="220" height="18" rx="9" fill="#59E7F7"/>
-  <circle cx="393" cy="119" r="23" fill="#59E7F7"/>
+  <rect x="146" y="378" width="220" height="18" rx="9" fill="white"/>
+  <circle cx="393" cy="119" r="23" fill="white"/>
 </svg>

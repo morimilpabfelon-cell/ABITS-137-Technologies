@@ -1,0 +1,22 @@
+{
+  "name": "ABITS-137 Technologies",
+  "short_name": "ABITS-137",
+  "description": "Operational Intelligence Infrastructure",
+  "start_url": "/ABITS-137-Technologies/",
+  "scope": "/ABITS-137-Technologies/",
+  "display": "standalone",
+  "background_color": "#d7d8d4",
+  "theme_color": "#07090d",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
