@@ -1,153 +1,158 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ABITS-137 Technologies builds governed AI agent systems for secure execution, workflow automation and operational audit." />
+  <meta name="theme-color" content="#07090d" />
+
   <title>ABITS-137 Technologies</title>
+
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=Inter+Tight:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
   <script type="module" src="/src/main.js"></script>
 </head>
 
 <body>
   <main class="page">
     <div class="shell">
-      <section class="hero">
-        <div class="grid"></div>
-        <div class="orbital"></div>
-        <div class="watermark">A137</div>
+      <section class="hero" id="platform">
+        <div class="grid" aria-hidden="true"></div>
+        <div class="orbital" aria-hidden="true"></div>
+        <div class="watermark" aria-hidden="true">A137</div>
+        <div class="focus-field" aria-hidden="true"></div>
 
-        <nav class="nav">
-          <div class="nav-brand">
-            <img class="brand-mark" src="/assets/logo/a137-mark.svg" alt="" /><span>ABITS-137</span>
-          </div>
+        <nav class="nav" aria-label="Primary navigation">
+          <a class="nav-brand" href="#platform" aria-label="ABITS-137 home">
+            <img class="brand-mark" src="/assets/logo/a137-mark.svg" alt="" width="36" height="36" />
+            <span>ABITS-137</span>
+          </a>
 
           <div class="nav-links">
-            <a href="#">Platform</a>
-            <a href="#">Runtime</a>
-            <a href="#">Security</a>
-            <a href="#">Research</a>
+            <a href="#platform">Platform</a>
+            <a href="#runtime">Runtime</a>
+            <a href="#security">Security</a>
+            <a href="#research">Research</a>
           </div>
 
-          <button class="nav-cta">Request Demo</button>
+          <a class="nav-cta" href="#contact">Request access</a>
         </nav>
 
-        <div class="data-cloud left"></div>
-        <div class="data-cloud right"></div>
+        <div class="data-cloud left" aria-hidden="true"></div>
+        <div class="data-cloud right" aria-hidden="true"></div>
 
-        <span class="node a"></span>
-        <span class="node b"></span>
-        <span class="node c"></span>
-        <span class="node d"></span>
-
-        <div class="signal one"></div>
-        <div class="signal two"></div>
-        <div class="signal three"></div>
-        <div class="signal four"></div>
+        <span class="node a" aria-hidden="true"></span>
+        <span class="node b" aria-hidden="true"></span>
+        <span class="node c" aria-hidden="true"></span>
+        <span class="node d" aria-hidden="true"></span>
 
         <div class="center">
-          <div aria-label="ABITS-137 Technologies">
-            <p class="kicker">Operational Intelligence Infrastructure</p>
+          <div class="hero-copy">
+            <p class="kicker"><span class="kicker-dot"></span>Operational intelligence infrastructure</p>
 
-            <h1 class="brand">
-              <span>ABITS-137</span>
-            </h1>
-
+            <h1 class="brand"><span>ABITS-137</span></h1>
             <div class="subbrand">Technologies</div>
 
             <p class="statement">
-              Construimos <strong>sistemas de agentes de IA</strong> para automatizar,
-              coordinar y auditar operaciones empresariales bajo un runtime seguro y gobernable.
+              We build <strong>governed AI agent systems</strong> for secure execution,
+              workflow automation and operational audit.
             </p>
 
             <div class="actions">
-              <button class="btn primary">Ver Producto</button>
-              <button class="btn">Solicitar Demo</button>
+              <a class="btn primary" href="#runtime">Explore platform</a>
+              <a class="btn" href="#contact">Request access</a>
             </div>
           </div>
         </div>
 
-        <div class="level-bar">
-          <div class="level">
+        <div class="level-bar" aria-label="ABITS-137 intelligence levels">
+          <article class="level">
             <small>Level 01</small>
             <b>Automation</b>
-            <span>Procesos repetibles, reportes y tareas internas.</span>
-          </div>
+            <span>Repeatable processes, reporting and internal operations.</span>
+          </article>
 
-          <div class="level">
+          <article class="level">
             <small>Level 02</small>
             <b>Agent Execution</b>
-            <span>Agentes que operan flujos, documentos y decisiones.</span>
-          </div>
+            <span>Agents operating workflows, documents and controlled decisions.</span>
+          </article>
 
-          <div class="level">
+          <article class="level">
             <small>Level 03</small>
             <b>Runtime Control</b>
-            <span>Permisos, memoria, herramientas y coordinación.</span>
-          </div>
+            <span>Permissions, memory, tools and human approval boundaries.</span>
+          </article>
 
-          <div class="level">
+          <article class="level">
             <small>Level 04</small>
             <b>Governed Intelligence</b>
-            <span>Auditoría, trazabilidad y control empresarial.</span>
-          </div>
+            <span>Auditability, traceability and enterprise control.</span>
+          </article>
         </div>
       </section>
 
-      <section class="below">
-        <article class="panel">
-          <p class="panel-label">Strategic Position</p>
-          <h2>No vendemos chatbots. Construimos infraestructura operativa.</h2>
-          <p>
-            ABITS-137 Technologies desarrolla una capa de inteligencia para empresas:
-            agentes, automatización, auditorÃ­a, permisos y ejecución segura sobre procesos reales.
+      <section class="system-grid" aria-label="ABITS-137 system overview">
+        <article class="panel strategic" id="runtime">
+          <p class="panel-label">Strategic position</p>
+          <h2>Beyond chatbots. Infrastructure for controlled execution.</h2>
+          <p class="panel-copy">
+            ABITS-137 develops an operational layer for enterprise AI:
+            agent execution, workflow orchestration, permission boundaries,
+            memory, audit and human governance.
           </p>
 
-          <div class="metrics">
-            <div class="metric">
-              <strong>01</strong>
-              <span>Agent Runtime</span>
-            </div>
-            <div class="metric">
-              <strong>02</strong>
-              <span>Secure Workflows</span>
-            </div>
-            <div class="metric">
-              <strong>03</strong>
-              <span>Audit Layer</span>
-            </div>
+          <div class="metrics" aria-label="Platform layers">
+            <div class="metric"><strong>01</strong><span>Agent Runtime</span></div>
+            <div class="metric"><strong>02</strong><span>Secure Workflows</span></div>
+            <div class="metric"><strong>03</strong><span>Audit Layer</span></div>
           </div>
         </article>
 
-        <aside class="panel">
-          <p class="panel-label">System Stack</p>
+        <aside class="panel stack" id="security">
+          <p class="panel-label">System stack</p>
 
           <div class="stack-list">
-            <div class="stack-item">
-              <span>Agents</span>
-              <span>Execution</span>
-            </div>
-            <div class="stack-item">
-              <span>Memory</span>
-              <span>Context</span>
-            </div>
-            <div class="stack-item">
-              <span>Tools</span>
-              <span>Control</span>
-            </div>
-            <div class="stack-item">
-              <span>Audit</span>
-              <span>Governance</span>
-            </div>
-            <div class="stack-item">
-              <span>Security</span>
-              <span>Core</span>
-            </div>
+            <div class="stack-item"><span>Agents</span><span>Execution</span></div>
+            <div class="stack-item"><span>Memory</span><span>Context</span></div>
+            <div class="stack-item"><span>Tools</span><span>Control</span></div>
+            <div class="stack-item"><span>Audit</span><span>Governance</span></div>
+            <div class="stack-item"><span>Security</span><span>Core</span></div>
           </div>
         </aside>
+
+        <article class="panel research" id="research">
+          <div>
+            <p class="panel-label">Research direction</p>
+            <h2>Governed intelligence, built in measurable levels.</h2>
+          </div>
+          <p class="panel-copy">
+            The long-term thesis is progressively stronger operational intelligence
+            with explicit permissions, observable behavior and verifiable decision history.
+          </p>
+        </article>
+
+        <article class="panel contact" id="contact">
+          <div>
+            <p class="panel-label">Private preview</p>
+            <h2>Early platform development is underway.</h2>
+          </div>
+
+          <a class="contact-link" href="https://github.com/morimilpabfelon-cell/ABITS-137-Technologies" target="_blank" rel="noreferrer">
+            View project repository <span aria-hidden="true">↗</span>
+          </a>
+        </article>
       </section>
+
+      <footer class="footer">
+        <span>ABITS-137 Technologies</span>
+        <span>Operational Intelligence Infrastructure</span>
+        <span>System v0.2</span>
+      </footer>
     </div>
   </main>
 </body>
 </html>
-
-
